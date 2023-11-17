@@ -1,20 +1,23 @@
-'''''''''''''''
-DocString
-Python = Linguagem de programação
-tipos de dados:
-string -> são textos, usados com aspas simples ou duplas ('' ou "")
-em python é somente str
+""""
+DocString -> documentação
 
-'''''''''''''''
+Python = linguagem de programação
+Tipagem = dinâmica / forte -> a linguagem já sabe que tipo de informação eu estou passando / 
+str -> string -> texto
+Strings são textos que estão dentro de aspas
+
+"""
+
+print(1234)
+
 # aspas simples 
-print('Luiz Francisco')
+print(1, 'Luiz Francisco', sep="-")
 
 # aspas duplas
-print("Luiz Francisco")
+print(2, "Linguagem de programação", sep="-")
 
-# escape
-print("Luiz \"Francisco\"")
+# escape 
+print(3, "Python \'VsCode\'", sep="-") # \' para o interpretador não ler de forma errônia as aspas que eu quero inserir no nome
 
-# código mais limpo
-print('Luiz "Francisco"')
-print("Luiz 'Francisco'")
+# melhor forma de colocar aspas numa string 
+print(4, 'Estou aprendendo "Python"', sep="-") # começar com aspas simples e usar as duplas depois
