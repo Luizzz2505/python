@@ -16,3 +16,5 @@ if entrada == 'E' and senha_digitada == senha_permitida: # esse bloco do if só 
 else:  # como eu não usei o elif, qualquer outra coisa diferente de E que for digitado vai para o bloco do else (diferente de S também)
     print('Sair')
 
+# avaliação de curto circuito
+print(True and False and True) # se tiver um False no meio, ele não checa mais nada que tiver depois e retorna na tela o valor False
